@@ -95,6 +95,10 @@ function subtract(num1, num2){
  * @return {number} the result
  */
 
+ // function calculate(num1, num2){
+
+ // }
+
 
 /**
  * Returns true if `a` is greater than `b`.
@@ -102,6 +106,14 @@ function subtract(num1, num2){
  * @param {number} b
  * @return {boolean} `a` is larger than `b`
  */
+
+ function isGreaterThan(num1, num2){
+  if(num1 > num2){
+    return true;
+  } else {
+    return false;
+  }
+ }
 
 
 /**
