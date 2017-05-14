@@ -70,6 +70,10 @@ function subtract(num1, num2){
  * @return {number} the quotient
  */
 
+ function divide(num1, num2){
+  return num1 / num2;
+ }
+
 
 /**
  * Multiplies a number by itself.
