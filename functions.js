@@ -96,7 +96,7 @@ function subtract(num1, num2){
  */
 
  // function calculate(str, num1, num2){
- //  console.log(add(num1, num2));
+
  // }
 
 
@@ -240,9 +240,14 @@ function letterGrade(score, total){
  * @return {object} restaurant
  */
 
-// function incrementReviews(obj){
-
-// }
+function incrementReviews(obj){
+  if(obj.hasOwnProperty('reviews')){
+    obj.reviews += 1;
+  } else {
+    obj.reviews = 1;
+  }
+  return obj;
+}
 
 /**
  * Joins two strings with a space.
@@ -263,3 +268,6 @@ function combine(str1, str2){
  * @return {object} circle
  */
 
+// function createCircle(num){
+
+// }
