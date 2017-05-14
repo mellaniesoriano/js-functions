@@ -95,8 +95,8 @@ function subtract(num1, num2){
  * @return {number} the result
  */
 
- // function calculate(num1, num2){
-
+ // function calculate(str, num1, num2){
+ //  console.log(add(num1, num2));
  // }
 
 
@@ -139,6 +139,14 @@ function subtract(num1, num2){
  * @return {boolean} the numbers are equal
  */
 
+ function areEqual(num1, num2){
+  if(num1 === num2){
+    return true;
+  } else{
+    return false;
+  }
+ }
+
 
 /**
  * Returns the smallest value of two numbers.
@@ -146,6 +154,10 @@ function subtract(num1, num2){
  * @param {number} y
  * @return {number} the smallest number
  */
+
+ // function minimum(num1, num2){
+
+ // }
 
 
 /**
@@ -161,6 +173,12 @@ function subtract(num1, num2){
  * @param {number} n
  * @return {boolean} the number is even
  */
+
+ function isEven(num){
+  if(num % 2 === 0){
+    return num;
+  }
+ }
 
 
 /**
