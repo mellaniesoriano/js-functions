@@ -36,6 +36,9 @@ function decrease(num){
  * @return {number} the sum
  */
 
+function add(num1, num2){
+  return num1 + num2;
+}
 
 /**
  * Subtracts the second number from the first.
