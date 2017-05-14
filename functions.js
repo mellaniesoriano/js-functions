@@ -25,6 +25,9 @@ function increase(num){
  * @return {number}
  */
 
+function decrease(num){
+  return num - 1;
+}
 
 /**
  * Adds two numbers.
