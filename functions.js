@@ -81,6 +81,10 @@ function subtract(num1, num2){
  * @return {number} squared
  */
 
+ function square(num){
+  return num * num;
+ }
+
 
 /**
  * Performs a mathematical operation on two numbers.
