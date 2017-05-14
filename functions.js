@@ -14,7 +14,9 @@ function numberToString(num){
  * @return {number}
  */
 
-
+function increase(num){
+  return num + 1;
+}
 
 
 /**
