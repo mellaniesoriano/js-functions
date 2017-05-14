@@ -211,9 +211,26 @@ function subtract(num1, num2){
  * @return {string} the score represented as a letter grade
  */
 
-// function letterGrade(score, total){
-//   if(total )
-// }
+function letterGrade(score, total){
+  var grade = "";
+  var percent = score/total * 100;
+  if(percent >= 90){
+    grade = "A";
+  }
+  else if(percent >= 80){
+    grade = "B";
+  }
+  else if(percent >= 70){
+    grade = "C";
+  }
+  else if(percent >= 60){
+    grade = "D";
+  }
+  else {
+    grade = "F";
+  }
+  return grade;
+}
 
 /**
  * Checks if a `restaurant` object has a `reviews` property.
