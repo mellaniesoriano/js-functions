@@ -4,12 +4,17 @@
  * @return {string} the number as a string
  */
 
+function numberToString(num){
+  return num.toString();
+}
 
 /**
  * Adds one to a given number.
  * @param {number} n
  * @return {number}
  */
+
+
 
 
 /**
