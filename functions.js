@@ -241,11 +241,7 @@ function letterGrade(score, total){
  */
 
 // function incrementReviews(obj){
-//   if(obj.hasOwnPropertyName(reviews)){
-//     reviews + 1;
-//   } else {
-//     return 1;
-//   }
+
 // }
 
 /**
@@ -255,6 +251,9 @@ function letterGrade(score, total){
  * @return {string} joined the words joined with a space
  */
 
+function combine(str1, str2){
+  return str1.concat(" ", str2);
+}
 
 /**
  * Returns a circle object with the properties `circumference` and `area`.
