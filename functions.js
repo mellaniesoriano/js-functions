@@ -107,8 +107,8 @@ function subtract(num1, num2){
  * @return {boolean} `a` is larger than `b`
  */
 
- function isGreaterThan(num1, num2){
-  if(num1 > num2){
+ function isGreaterThan(a, b){
+  if(a > b){
     return true;
   } else {
     return false;
@@ -122,6 +122,14 @@ function subtract(num1, num2){
  * @param {number} b
  * @return {boolean} `a` is smaller than `b`
  */
+
+ function isLessThan(a, b){
+  if(a < b){
+    return true;
+  } else {
+    return false;
+  }
+ }
 
 
 /**
