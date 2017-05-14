@@ -95,9 +95,28 @@ function subtract(num1, num2){
  * @return {number} the result
  */
 
- // function calculate(str, num1, num2){
-
- // }
+ function calculate(str, x, y){
+  var operator = "";
+  var result = null;
+  if(str === "add"){
+    operator = " + ";
+    result = x + y;
+  }
+  else if(str === "subtract"){
+    operator = " - ";
+    result = x - y;
+  }
+  else if(str === "multiply"){
+    operator = " * ";
+    result = x * y;
+  }
+  else if(str === "divide"){
+    operator = " / ";
+    result = x / y;
+  }
+  console.log(x + operator + y + " = " + result);
+  return result;
+ }
 
 
 /**
@@ -268,6 +287,10 @@ function combine(str1, str2){
  * @return {object} circle
  */
 
-// function createCircle(num){
-
-// }
+function createCircle(radius){
+  var circle = {
+  circumference : (2 * Math.PI * radius),
+  area : (Math.PI * radius * radius)
+};
+  return circle;
+}
