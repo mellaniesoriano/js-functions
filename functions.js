@@ -155,9 +155,9 @@ function subtract(num1, num2){
  * @return {number} the smallest number
  */
 
- // function minimum(num1, num2){
-
- // }
+ function minimum(num1, num2){
+  return Math.min(num1, num2);
+ }
 
 
 /**
@@ -167,6 +167,9 @@ function subtract(num1, num2){
  * @return {number} the largest number
  */
 
+ function maximum(num1, num2){
+  return Math.max(num1, num2);
+ }
 
 /**
  * Returns true if `n` is even.
@@ -208,6 +211,9 @@ function subtract(num1, num2){
  * @return {string} the score represented as a letter grade
  */
 
+// function letterGrade(score, total){
+//   if(total )
+// }
 
 /**
  * Checks if a `restaurant` object has a `reviews` property.
@@ -217,6 +223,13 @@ function subtract(num1, num2){
  * @return {object} restaurant
  */
 
+// function incrementReviews(obj){
+//   if(obj.hasOwnPropertyName(reviews)){
+//     reviews + 1;
+//   } else {
+//     return 1;
+//   }
+// }
 
 /**
  * Joins two strings with a space.
